@@ -3,7 +3,7 @@ class BookController < ApplicationController
 layout 'standard'
 
    def list
-      @books = Book.list
+      @books = Book.all
    end
 
    def show

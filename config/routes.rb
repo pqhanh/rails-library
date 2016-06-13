@@ -53,6 +53,15 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-resources :book
+#resources :book
+   get 'book/new'
+   post 'book/create'
+   patch 'book/update'
+   get 'book/list'
+   get 'book/show'
+   get 'book/edit'
+   get 'book/delete'
+   get 'book/update'
+   get 'book/show_subjects'
 
 end

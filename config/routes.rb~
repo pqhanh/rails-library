@@ -53,8 +53,7 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-resources :book
-   get 'books/list'
+#resources :book
    get 'books/new'
    post 'books/create'
    patch 'books/update'
@@ -64,4 +63,5 @@ resources :book
    get 'books/delete'
    get 'books/update'
    get 'books/show_subjects'
+
 end
